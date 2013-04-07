@@ -1,0 +1,126 @@
+<html>
+ <head>
+  <title>Invisible Things - A short story</title>
+  <link href="css/turn.css" rel="stylesheet" type="text/css" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="js/turn.min.js"></script>
+  <script src="js/hash.js"></script>
+ </head>
+ <body>
+  <div id="story" class="shadow">
+   <div>
+    <h1>Invisible Things</h1>
+   </div>
+   <div>
+    <p>Once upon a time, in a land quite close to home, there lived a band of merry men who made their living, building invisible things.</p>
+    <p>Each morning when they rose, they would scurry to the towers, palaces and temples of their happy land and build <em>software</em>.</p>
+    <p>The people of their happy land had called it so, because it was unlike any of the hardware, that honest men had made their fortunes building, fixing, selling, maintaining and recycling.</p>
+   </div>
+   <div>
+    <p>It was a time of plenty and the merry men found that not only did software need to be built, it had to be designed. Architected. Tested. Secured. Deployed. Released. Maintained. Migrated. Decomissioned. Busy work indeed.</p>
+    <p>What a wonderful substance it was, this software. It would have been said it was worth its weight in gold, except it had no weight.</p>
+    <p>Some claimed it was beautiful. More so than the wonders of the ancient world. Yet it wasn't understood how, since none, but the merry men, had ever seen it.</p>
+   </div>
+   <div>
+    <p>There were those who claimed it cured illness, gave sight to the blind, kept jumbo airliners from falling out of heaven. It must have. These things happened with no other explanation than that software had achieved it.</p>
+    <p>The nobles of the land couldn't get enough of it. They would buy a hundred weight in gold of it one day and return the next to buy a thousand more. It had a way of making it's aquirers crave more.</p>
+    <p>The merry men were delighted. They couldn't make it fast enough. They laboured all day, every day, across the land, producing oodles of the precious, invisible stuff. Then at night they would scurry back to their homes labouring under the weight of all the gold thrown at them in return for their hours of toil on the magical, ethereal substance. Some spent their gold on hardware. Some spent it on the pleasures of life. All of them grew accustomed to leaving home light footed in the morning and returning heavily laden at night.</p>
+   </div>
+   <div>
+    <p>Far, far away, on an eastern shore, tales of wealth and plenty blew in on the breeze. A land peopled by ancient culture and teeming with poverty and the determination that poverty breeds, sniffed the air and its promises of plenty.</p>
+    <p>Many a wise sage dwelt on these eastern shores and knew how to interpret the breeze.</p>
+   </div>
+   <div>
+    <p>Messengers were dispatched and the noblest and most trusted sons of the ancient culture journeyed west, following the scented breeze.</p>
+    <p>They found the happy lands and didn't waste time being baffled by the propensity of it's nobles to be baffled by invisible things.</p>
+   </div>
+   <div>
+    <p>They appeared at the doors of the merry men and their ancient wisdoms prevailed. They said to the merry men:</p>
+    <p><blockquote>All of this scurrying back and forth to the towers, palaces and temples is beneath you. Look at your horde of gold, you are nobles now yourselves. Let us do all this scurrying for you. We will lighten your burden of gold only a little, and we will produced mountains of this invisible stuff on your behalf. Why, look at how much we have brought with us.</blockquote></p>
+   </div>
+   <div>
+    <p>The merry men were drunk. The fruits and rewards of their toils hung like a cloud in their merry eyes. They gazed where the Eastern Sons pointed and they could see immediately that mountains of invisble stuff had indeed been brought by the Eastern Sons.</p>
+   </div>
+   <div>
+    <p>Even the sharpest and quickest of the merry men could see that they had no choice anyway. If they did not accept the help of the Eastern Sons the nobles would surely notice these mountains of invisible stuff brought ashore from the east. They would want it, wherever it had come from. They would surely buy it and want more still.</p>
+    <p>The Easterners clearly had more of this stuff than the merry men had ever seen. And they wanted less in return for it. Simple economics forced their hand.</p>
+   </div>
+   <div>
+    <p>They tried to find a way to stand between the nobles and the mountains of invisble stuff. They tried to be the go-between, middle-men.</p>
+    <p>It was no use. The greed of the nobles on one side, mountains of invisible stuff on the other. Human nature took it's course and the nobles forged new trade alliances with the Eastern Sons.</p>
+    <p>The merry men were yesterdays fools and the Eastern Sons flooded the markets with so much invisible stuff that everyone drowned in it.</p>
+   </div>
+   <div>
+    <h1>The End</h1>
+   </div>
+  </div>
+  <div id="index">
+   <a id="prev">&lt;</a>
+   <a id="l1">1</a>
+   <a id="l2">2</a>
+   <a id="l3">3</a>
+   <a id="l4">4</a>
+   <a id="l5">5</a>
+   <a id="l6">6</a>
+   <a id="l7">7</a>
+   <a id="l8">8</a>
+   <a id="l9">9</a>
+   <a id="l10">10</a>
+   <a id="l11">11</a>
+   <a id="next">&gt;</a>
+  </div>
+  <script type="text/javascript">
+  $("#story").turn({
+   width: 780,
+   height: 500,
+   autoCenter: true,
+   // Events
+   when: {
+    turning: function(event, page, view) {
+     var book = $(this),
+     currentPage = book.turn('page'),
+     pages = book.turn('pages');
+     // Update the current URI
+     Hash.go(page).update();
+     // Show and hide navigation buttons
+     //disableControls(page);
+     $('#index a').removeClass("active");
+     $('#l' + page).addClass('active');
+     //$('.thumbnails .page-'+currentPage).parent().removeClass('current');
+     //$('.thumbnails .page-'+page).parent().addClass('current');
+    },
+    turned: function(event, page, view) {
+     //disableControls(page);
+     //$(this).turn('center');
+     //if (page==1) { $(this).turn('peel', 'br'); }
+    },
+    missing: function (event, pages) {
+     // Add pages that aren't in the magazine
+     //for (var i = 0; i < pages.length; i++)
+     // addPage(pages[i], $(this));
+    }
+   }
+  });
+  
+  
+  Hash.on('^([0-9]*)$', {
+   yep: function(path, parts) {
+    var page = parts[1];
+    if (page!==undefined) {
+     if ($('#story').turn('is'))
+      $('#story').turn('page', page);
+    }
+   },
+   nop: function(path) {
+    if ($('#story').turn('is'))
+     $('#story').turn('page', 1);
+   }
+  });
+  $('#prev').click(function(){ $('#story').turn('previous'); });
+  $('#next').click(function(){ $('#story').turn('next'); });
+  //for (var i = 1; i <= 11; i++){
+  // $('#l' + i).click(function(){ $('#story').turn('page', i); });
+  //}
+  </script>
+ </body>
+</html>
