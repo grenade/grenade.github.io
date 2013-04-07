@@ -1,12 +1,20 @@
 $(document).ready(function() {
- var p = parseInt(window.location.hash.substring(2));
- $("#book").touchwipe({
-  wipeLeft: function() { $('html, body').animate({ scrollTop: $('#p' + (p - 1)).offset().top }, 'slow'); },
-  wipeRight: function() { $('html, body').animate({ scrollTop: $('#p' + (p + 1)).offset().top }, 'slow'); },
-  wipeUp: function() { $('html, body').animate({ scrollTop: $('#p' + (p - 1)).offset().top }, 'slow'); },
-  wipeDown: function() { $('html, body').animate({ scrollTop: $('#p' + (p + 1)).offset().top }, 'slow'); },
-  min_move_x: 20,
-  min_move_y: 20,
-  preventDefaultEvents: true
- });
+ $('#l' + window.location.hash.substring(2)).addClass('active');
+ if(window.location.hash.substring(0,1) != '#') { location.href = '#p1'; }
+ function hashChanged(hash) {
+  $('a').removeClass("active");
+  $('#l' + hash.substring(2)).addClass('active');
+ }
+ if ("onhashchange" in window) { window.onhashchange = function () { hashChanged(window.location.hash); } }
+ else {
+  var storedHash = window.location.hash;
+  window.setInterval(function () {
+   if (window.location.hash != storedHash) {
+    storedHash = window.location.hash;
+    hashChanged(storedHash);
+   }
+  }, 100);
+ }
+ $('#prev').click(function(){ location.href = '#p' + (Math.max(parseInt(window.location.hash.substring(2)), 2) - 1); })
+ $('#next').click(function(){ location.href = '#p' + (Math.min(parseInt(window.location.hash.substring(2)), 8) + 1); })
 });
