@@ -23,10 +23,27 @@
 
       </header>
       <section>
-        <h3>
-<a name="create-a-local-featurebug-fix-branch-tracking-remote-branch" class="anchor" href="#create-a-local-featurebug-fix-branch-tracking-remote-branch"><span class="octicon octicon-link"></span></a>Create a local feature/bug-fix branch, tracking remote branch</h3>
+        <h2>
+<a name="local-feature-branch-workflow" class="anchor" href="#local-feature-branch-workflow"><span class="octicon octicon-link"></span></a>Local feature branch workflow</h2>
 
-<pre><code>git checkout -b feature-id origin/remote-branch
+<p><a href="http://nvie.com/posts/a-successful-git-branching-model/">http://nvie.com/posts/a-successful-git-branching-model/</a></p>
+
+<ul>
+<li>Create a local feature/bug-fix branch, tracking remote branch</li>
+</ul><pre><code>git checkout -b some-feature origin/develop
+</code></pre>
+
+<ul>
+<li>hack, hack, hack...</li>
+<li>merge back to remote branch</li>
+</ul><pre><code>git checkout develop
+git merge --no-ff some-feature
+git push origin develop
+</code></pre>
+
+<ul>
+<li>delete local feature branch</li>
+</ul><pre><code>git branch -d some-feature
 </code></pre>
 
 <h3>
