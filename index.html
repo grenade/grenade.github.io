@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Git Cheat Sheet by grenade</title>
+    <title>Rob Thijssen</title>
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
@@ -15,59 +15,15 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1>Git Cheat Sheet</h1>
-        <p>Being productive in Git</p>
-
-
-        <p class="view"><a href="https://github.com/grenade">View My GitHub Profile</a></p>
-
+        <h1>grenade.github.io</h1>
+        <p><a href="/rob-thijssen-cv">Curriculum Vitae</a></p>
       </header>
-      <section>
-        <h2>
-<a name="local-feature-branch-workflow" class="anchor" href="#local-feature-branch-workflow"><span class="octicon octicon-link"></span></a>Local feature branch workflow</h2>
-
-<p><a href="http://nvie.com/posts/a-successful-git-branching-model/">http://nvie.com/posts/a-successful-git-branching-model/</a></p>
-
-<ul>
-<li>Create a local feature/bug-fix branch, tracking remote branch</li>
-</ul><pre><code>git checkout -b some-feature origin/develop
-</code></pre>
-
-<ul>
-<li>hack, hack, hack...</li>
-<li>merge back to remote branch</li>
-</ul><pre><code>git checkout develop
-git merge --no-ff some-feature
-git push origin develop
-</code></pre>
-
-<ul>
-<li>delete local feature branch</li>
-</ul><pre><code>git branch -d some-feature
-</code></pre>
-
-<h3>
-<a name="discard-local-changes" class="anchor" href="#discard-local-changes"><span class="octicon octicon-link"></span></a>Discard local changes</h3>
-
-<pre><code>git stash save --keep-index
-git stash drop
-</code></pre>
-      </section>
       <footer>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
     <script src="javascripts/scale.fix.js"></script>
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-41698486-1");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
-
+    <script type="text/javascript">var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www."); document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</script>
+    <script type="text/javascript">try { var pageTracker = _gat._getTracker("UA-41698486-1"); pageTracker._trackPageview(); } catch(err) {}</script>
   </body>
 </html>
