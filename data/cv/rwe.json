@@ -1,0 +1,56 @@
+{
+  "company": {
+    "name": "RWE Supply & Trading GmbH",
+    "icon": "images/icon-rwe.png"
+  },
+  "location": {
+    "name": "Essen, Germany"
+  },
+  "period": {
+    "start": "2011-02-01",
+    "end": "2013-04-01"
+  },
+  "job": {
+    "title": "Build, Release & Deployment Manager",
+    "description": "DevOps: Automation, Build, Release and Deployment",
+    "brief": [
+      "With RWE Supply & Trading, I managed release & deployments across the Risk development teams. My responsibilities included continuous integration advocacy & implementation & as part of this remit I championed technologies & tools that contribute to effective working practices.I administered the DVCS (Git - Atlassian Stash, Crucible, FishEye) & CI (TeamCity) servers & provided the integrations to Atlassian Jira & Confluence. I developed applications & scripts that assist with the CI process including database snapshotting, promotion & migration strategies & I administer a number of Oracle Exadata servers. I also set up & administer several NuGet & Nexus artefact repositories. I contributed to the Global Risk development effort with peer code reviews, database, C# & ASP.Net development. Working with a senior project team, we delivered the business' first globally consolidated, Risk reporting platform, bringing integrated, centralised views of risk indicators which give analysts up-to-date reports at multiple granular & aggregation levels."
+    ],
+    "technologies": [
+      {
+        "description": "TeamCity",
+        "code": "teamcity"
+      },
+      {
+        "description": "Git",
+        "code": "git"
+      },
+      {
+        "description": "Subversion",
+        "code": "svn"
+      },
+      {
+        "description": "Asp.Net MVC",
+        "code": "dotnet"
+      },
+      {
+        "description": "Windows Services",
+        "code": "ms"
+      },
+      {
+        "description": "VirtualBox",
+        "code": "vbox"
+      },
+      {
+        "description": "PLSQL",
+        "code": "db"
+      },
+      {
+        "description": "Oracle Exadata",
+        "code": "db"
+      }
+    ],
+    "skills": [
+    ]
+  }
+}

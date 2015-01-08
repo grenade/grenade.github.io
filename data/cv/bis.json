@@ -1,0 +1,49 @@
+{
+  "company": {
+    "name": "Bank for International Settlements",
+    "icon": "images/logo-bis.png"
+  },
+  "location": {
+    "name": "Basel, Switzerland"
+  },
+  "period": {
+    "start": "2014-10-24"
+  },
+  "job": {
+    "title": "Software Developer",
+    "description": "Developing Securities and Collateral Management software and workflows",
+    "brief": [
+      "I joined the BIS to implement a bespoke application for the monitoring of incoming Collateral and Securities data from Bloomberg.",
+      "The application utilizes Biztalk for the workflow orchestration and fixml entry points and WebApi (and WCF) to expose business logic and internal endpoints for validation and manipulation of the received data.",
+      "The UI implemenation consumes a restful WebApi and renders AngularJS MVC views of the state of Securities being processed by the workflow."
+    ],
+    "technologies": [
+      {
+        "description": "AngularJS 1.3",
+        "code": "ng"
+      },
+      {
+        "description": "Bootstrap",
+        "code": "bootstrap"
+      },
+      {
+        "description": "WebApi 2",
+        "code": "dotnet"
+      },
+      {
+        "description": "Entity Framework 6",
+        "code": "dotnet"
+      },
+      {
+        "description": "Microsoft SQL Server 2012",
+        "code": "db"
+      },
+      {
+        "description": "Team Foundation Server",
+        "code": "ms"
+      }
+    ],
+    "skills": [
+    ]
+  }
+}
