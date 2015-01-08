@@ -15,7 +15,7 @@
     "brief": [
       "I joined the BIS to implement a bespoke application for the monitoring of incoming Collateral and Securities data from Bloomberg.",
       "The application utilizes Biztalk for the workflow orchestration and fixml entry points and WebApi (and WCF) to expose business logic and internal endpoints for validation and manipulation of the received data.",
-      "The UI implemenation consumes a restful WebApi and renders AngularJS MVC views of the state of Securities being processed by the workflow."
+      "The UI implementation consumes a restful WebApi and renders AngularJS MVC views of the state of Securities being processed by the workflow."
     ],
     "technologies": [
       {
