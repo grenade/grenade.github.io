@@ -14,7 +14,7 @@
     "title": "The DevOps Guy",
     "description": "Working within Development to promote best practice in continuous integration & deployment",
     "brief": [
-      "Supporting development of the flagship Beazley Pro application suite through the introduction of GitHub Enterprise as the VCS platform, harnessing the benefits of virtualisation through an internal Hyper-V cloud, streamlining the deployment tooling using Chocolatey & NuGet as well as building tools to support the validation & auditing of environment configuration amidst rapidly changing deployment scenarios for the Microsoft .Net application stack (NServiceBus, Windows Services, WCF, ASP.Net, MVC)."
+      "Supporting development of the flagship Beazley Pro application suite through the introduction of GitHub Enterprise as the VCS platform (migrated from Perforce), harnessing the benefits of virtualisation through an internal Hyper-V cloud with automated, multi-vm, environment creation, streamlining the deployment tooling using Chocolatey & NuGet as well as building tools to support the validation & auditing of environment configuration amidst rapidly changing deployment scenarios for the Microsoft .Net application stack (NServiceBus, Windows Services, WCF, ASP.Net, MVC)."
     ],
     "technologies": [
       {
@@ -24,6 +24,10 @@
       {
         "description": "GitHub Enterprise",
         "code": "gh"
+      },
+      {
+        "description": "Perforce",
+        "code": "p4"
       },
       {
         "description": "TeamCity",
