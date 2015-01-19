@@ -43,6 +43,10 @@
         "code": "vbox"
       },
       {
+        "description": "Amazon Web Services",
+        "code": "aws"
+      },
+      {
         "description": "PLSQL",
         "code": "db"
       },
