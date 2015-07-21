@@ -1,0 +1,36 @@
+{
+  "company": {
+    "name": "M-Corp",
+    "icon": "images/logo-mcorp.png"
+  },
+  "location": {
+    "name": "Ringwood, UK"
+  },
+  "period": {
+    "start": "2005-08-01",
+    "end": "2005-10-01"
+  },
+  "job": {
+    "title": "Senior Developer",
+    "description": "",
+    "brief": [
+      "This contract position was for a prestigious .Net development house in Hampshire. I worked with the company's Continuity application framework & content management system. My responsibilities included creating bespoke software solutions for clients like Motorola, Dean & Dyball & the RNLI. Our principle technologies were ASP.Net & C# on the .Net 1.1 Framework & one of my more interesting projects involved porting the existing Continuity code-base to run on the Linux & Mac Mono .Net framework. I also made extensive use of the ITextSharp libraries to dynamically generate complex PDF documentation. We also made extensive use of Trac & Subversion for Source Control. As Continuity delivers pure XML content, much of my work entailed development of the XSL transformations to XHTML."
+    ],
+    "technologies": [
+      {
+        "description": "JavaScript",
+        "code": "js"
+      },
+      {
+        "description": "Asp.Net",
+        "code": "dotnet"
+      },
+      {
+        "description": "Microsoft SQL Server 2008",
+        "code": "db"
+      }
+    ],
+    "skills": [
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "company": {
+    "name": "BT Exact (British Telecom)",
+    "icon": "images/logo-bt.png"
+  },
+  "location": {
+    "name": "London, UK"
+  },
+  "period": {
+    "start": "2007-01-01",
+    "end": "2007-02-01"
+  },
+  "job": {
+    "title": "Build Manager",
+    "description": "",
+    "brief": [
+      "This brief role entailed delivery of the deployment & staging environments for a high profile, eCommerce web site for an entertainment artist. The technologies utilised included Microsoft's Team Foundation Server, Commerce Server 2007, SharePoint, BizTalk & Verified by Visa. I was responsible to manage & automate regular deployments through a number of complex, secure environments."
+    ],
+    "technologies": [
+      {
+        "description": "Team Foundation Server",
+        "code": "ms"
+      }
+    ],
+    "skills": [
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "company": {
+    "name": "IHS",
+    "icon": "images/logo-ihs.png"
+  },
+  "location": {
+  	"name": "Kingsbridge, UK"
+  },
+  "period": {
+    "start": "2014-05-01",
+    "end": "2014-10-22"
+  },
+  "job": {
+  	"title": "Software Developer",
+  	"brief": [
+  	  "Returning to my roots at IHS I worked as a software developer working in an Agile/Scrum environment to implement ASP.Net web and NServiceBus messaging applications in support of the IHS Connect Risk platform."
+  	],
+  	"technologies": [
+      {
+        "description": "JavaScript",
+        "code": "js"
+      },
+      {
+        "description": "Asp.Net MVC",
+        "code": "dotnet"
+      },
+      {
+        "description": "NServiceBus",
+        "code": "nsb"
+      },
+      {
+        "description": "FAST",
+        "code": "ms"
+      },
+      {
+        "description": "Microsoft SQL Server 2008",
+        "code": "db"
+      },
+      {
+        "description": "Team Foundation Server",
+        "code": "ms"
+      },
+      {
+        "description": "TeamCity",
+        "code": "teamcity"
+      }
+  	],
+  	"skills": [
+      {
+        "description": "Geo-spatial queries",
+        "code": "map"
+      }
+  	]
+  }
+}
