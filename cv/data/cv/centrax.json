@@ -1,0 +1,32 @@
+{
+  "company": {
+    "name": "Centrax Ltd",
+    "icon": "images/logo-centrax.png"
+  },
+  "location": {
+    "name": "Newton Abbot, UK"
+  },
+  "period": {
+    "start": "2004-10-01",
+    "end": "2005-04-01"
+  },
+  "job": {
+    "title": "Business Process Manager",
+    "description": "Turbine Components",
+    "brief": [
+      "My focus at Centrax was on the development of the stock requirements, forecasting & management system. The project encompassed the integration of Business Objects, Crystal Reports & bespoke PHP4, PHP5 & Perl web applications with an AS400 DB2 ODBC back-end. I was the lead developer & managed a small team of IT personnel. I had responsibility for the technical architecture & design of a number of business applications focussed around ERP. The role involved a significant use of complex SQL, VB6, Object Oriented PHP & C++. As a manufacturing company we worked to customer & business requirements which required a great deal of flexibility & a `roll up your sleeves` approach to problem solving & customer satisfaction."
+    ],
+    "technologies": [
+      {
+        "description": "PHP",
+        "code": "php"
+      },
+      {
+        "description": "DB2",
+        "code": "db"
+      }
+    ],
+    "skills": [
+    ]
+  }
+}

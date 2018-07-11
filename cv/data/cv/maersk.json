@@ -1,0 +1,66 @@
+{
+  "company": {
+    "name": "UST Global / Maersk Line",
+    "icon": "images/icon-maersk.png"
+  },
+  "location": {
+    "name": "Copenhagen, Denmark"
+  },
+  "period": {
+    "start": "2013-04-01",
+    "end": "2013-11-13"
+  },
+  "job": {
+    "title": "Transition Manager",
+    "description": "DevOps: Automation, Build, Release and Deployment",
+    "brief": [
+      "I worked as a team lead assisting Maersk Line IT with a Lean, Scrum based, knowledge transfer program to offshore DevOps functions (continuous integration, automation, build & release management, source control, orchestration, virtual environment provisioning, maintenance & monitoring of environments) to UST Global. I led a DevOps team of build engineers where we took advantage of Lean & Scrum to share a diverse DevOps workload across the team.",
+      "Leveraging a near-complete Open Source stack, we utilised, maintained & developed a bespoke, cross-platform, framework (in Python) to interact with the full spectrum of CI tools, borrowing from the Chef/Puppet kitchen model. We automated all interactions with: SSH, Git, Svn, Hudson, Maven, Ant, Nexus, Kibana, Logstash, Cucumber, Weblogic, Oracle, OSB, VirtualBox, Vagrant & more.",
+      "The engagement included an extended stay in Bangalore where I assisted in the hiring & training process for the offshore operation. I had the pleasure of engaging & working with a dynamic, talented & motivated new team whilst relaying the mature working practices, Lean/Agile/Scrum & technical approach of the established but departing Copenhagen team."
+    ],
+    "technologies": [
+      {
+        "description": "Git",
+        "code": "git"
+      },
+      {
+        "description": "Subversion",
+        "code": "svn"
+      },
+      {
+        "description": "Hudson",
+        "code": "hudson"
+      },
+      {
+        "description": "Vagrant",
+        "code": "vagrant"
+      },
+      {
+        "description": "Fedora",
+        "code": "fedora"
+      },
+      {
+        "description": "VirtualBox",
+        "code": "vbox"
+      },
+      {
+        "description": "Python",
+        "code": "py"
+      },
+      {
+        "description": "Elastic Search",
+        "code": "es"
+      },
+      {
+        "description": "Logstash",
+        "code": "logstash"
+      },
+      {
+        "description": "Kibana",
+        "code": "kibana"
+      }
+    ],
+    "skills": [
+    ]
+  }
+}

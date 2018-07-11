@@ -1,0 +1,36 @@
+{
+  "company": {
+    "name": "Keane Switzerland",
+    "icon": "images/logo-keane.png"
+  },
+  "location": {
+    "name": "Fribourg, Switzerland"
+  },
+  "period": {
+    "start": "2010-07-01",
+    "end": "2011-02-01"
+  },
+  "job": {
+    "title": "Technical Consultant",
+    "description": "Working within Development to promote best practice in continuous integration & deployment",
+    "brief": [
+      "Working with Keane Switzerland in Fribourg, to develop SharePoint & Windows Workflow Foundation driven interfaces to large SAP ERP systems. My remit again included implementing best practice in the form of Continuous Integration & Agile, Test Driven Development while advising & mentoring our team & clients in C#, .Net programming, architectural, development & framework implementation."
+    ],
+    "technologies": [
+      {
+        "description": "TeamCity",
+        "code": "teamcity"
+      },
+      {
+        "description": "WPF",
+        "code": "dotnet"
+      },
+      {
+        "description": "Microsoft SQL Server 2008",
+        "code": "db"
+      }
+    ],
+    "skills": [
+    ]
+  }
+}

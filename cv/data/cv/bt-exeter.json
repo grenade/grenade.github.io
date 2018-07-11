@@ -1,0 +1,41 @@
+{
+  "company": {
+    "name": "BT Exact (British Telecom)",
+    "icon": "images/logo-bt.png"
+  },
+  "location": {
+    "name": "Exeter, UK"
+  },
+  "period": {
+    "start": "2005-06-01",
+    "end": "2005-08-01"
+  },
+  "job": {
+    "title": "Senior Developer",
+    "description": "",
+    "brief": [
+      "My position at BT was a contract developing for the 'FastPeter' project. I developed & supported transaction based messaging applications in C#. My team’s focus was on the enabling of simultaneous provision of PSTN & ADSL for UK customers. We facilitated the provision of broadband to BT customers as well as our wholesale client’s customers & those on the unbundled exchanges (basically, all broadband in the UK). We employed Continuous Integration, Test Driven Development & Agile Methodologies in an Extreme Programming environment utilising MS Build, Nant, NUnit & Version One.",
+      "As an Agile development team we developed in fortnightly iterations which allowed us to focus our efforts on priority business requirements & respond quickly to change & implementation requests. I was responsible for the migration of C++ & VB.Net code to C#. This involved a great deal of refactoring & because we ran a Test Driven environment I wrote a great deal of NUnit test code in C# to ensure that the migration & refactoring resulted in stable, bug free code that met requirements. We also formalised our enterprise integration patterns through the use of a Pipes & Filters approach to message handling."
+    ],
+    "technologies": [
+      {
+        "description": "JavaScript",
+        "code": "js"
+      },
+      {
+        "description": "Asp.Net",
+        "code": "dotnet"
+      },
+      {
+        "description": "MSMQ",
+        "code": "ms"
+      },
+      {
+        "description": "Microsoft SQL Server",
+        "code": "db"
+      }
+    ],
+    "skills": [
+    ]
+  }
+}
